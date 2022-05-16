@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T11:42:06.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="TFyFPZt8-22W3MSZ3XoI" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-16T04:44:32.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ovlFx1buY6wxCF4IwcBu" version="18.0.4" type="github">
   <diagram id="nbGJU2LKPnOF9mWvJYsR" name="Page-1">
-    <mxGraphModel dx="1093" dy="659" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fm47RX36wCAkw2Xk3gJa-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="1671" width="140" height="187" as="geometry" />
+        </mxCell>
         <mxCell id="6U5-oF-LllrCLc8WEL7--1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133" y="117" width="463" height="291" as="geometry" />
         </mxCell>
@@ -232,6 +235,26 @@
             <mxPoint x="838" y="1119" as="sourcePoint" />
             <mxPoint x="843" y="1547" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fm47RX36wCAkw2Xk3gJa-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fm47RX36wCAkw2Xk3gJa-77" target="Fm47RX36wCAkw2Xk3gJa-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fm47RX36wCAkw2Xk3gJa-77" value="调用者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1736" width="75" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Fm47RX36wCAkw2Xk3gJa-83" value="Java SPI 机制" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fm47RX36wCAkw2Xk3gJa-78" target="Fm47RX36wCAkw2Xk3gJa-82">
+          <mxGeometry x="-0.0123" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fm47RX36wCAkw2Xk3gJa-78" value="标准服务接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="1736" width="85.5" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Fm47RX36wCAkw2Xk3gJa-80" value="实现类A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454.25" y="1693" width="85.5" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Fm47RX36wCAkw2Xk3gJa-81" value="实现类B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454.25" y="1778" width="85.5" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
